@@ -1,0 +1,8 @@
+prefix=/home/eloise/catkin-ws/devel
+
+Name: yumi_support
+Description: Description of yumi_support
+Version: 0.0.4
+Cflags: 
+Libs: -L/home/eloise/catkin-ws/devel/lib 
+Requires: 

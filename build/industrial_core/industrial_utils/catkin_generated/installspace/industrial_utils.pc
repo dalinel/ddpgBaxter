@@ -1,0 +1,8 @@
+prefix=/home/eloise/catkin-ws/install
+
+Name: industrial_utils
+Description: Description of industrial_utils
+Version: 0.5.1
+Cflags: -I/home/eloise/catkin-ws/install/include
+Libs: -L/home/eloise/catkin-ws/install/lib -lindustrial_utils
+Requires: roscpp urdf

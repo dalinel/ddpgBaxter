@@ -1,0 +1,8 @@
+prefix=/home/eloise/catkin-ws/devel
+
+Name: ddpg
+Description: Description of ddpg
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/eloise/catkin-ws/devel/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/eloise/catkin-ws/install
+
+Name: yumi_control
+Description: Description of yumi_control
+Version: 0.0.4
+Cflags: 
+Libs: -L/home/eloise/catkin-ws/install/lib 
+Requires: 

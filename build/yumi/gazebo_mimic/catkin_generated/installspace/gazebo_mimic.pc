@@ -1,0 +1,8 @@
+prefix=/home/eloise/catkin-ws/install
+
+Name: gazebo_mimic
+Description: Description of gazebo_mimic
+Version: 0.0.4
+Cflags: -I/home/eloise/catkin-ws/install/include
+Libs: -L/home/eloise/catkin-ws/install/lib -lgazebo_mimic_plugin
+Requires: gazebo_ros

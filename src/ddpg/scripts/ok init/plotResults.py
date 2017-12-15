@@ -1,0 +1,29 @@
+#!/usr/bin/env python
+import matplotlib.pyplot as plt
+import numpy as np
+path="/home/eloise/catkin-ws/src/ddpg/scripts/"
+results=np.load(path+"results.npy")
+l=20
+font = {'family' : 'normal',
+        'size'   : l}
+
+plt.rc('font', **font)
+
+l=5
+plt.figure(1)
+plt.subplot(211)
+plt.plot(np.arange(len(results)),results[:,[0]], 'r+',ms=l)
+
+plt.subplot(212)
+plt.plot(np.arange(len(results)),results[:,[1]], 'b+',ms=l)
+plt.show()
+
+
+plt.figure(2)
+plt.subplot(211)
+plt.plot(np.arange(4000),results[:,[0]][0:4000], 'r+',ms=l)
+
+plt.subplot(212)
+plt.plot(np.arange(4000),results[:,[1]][0:4000], 'b+',ms=l)
+plt.show()
+

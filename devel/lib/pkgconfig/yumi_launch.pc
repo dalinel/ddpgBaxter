@@ -1,0 +1,8 @@
+prefix=/home/eloise/catkin-ws/devel
+
+Name: yumi_launch
+Description: Description of yumi_launch
+Version: 0.0.4
+Cflags: 
+Libs: -L/home/eloise/catkin-ws/devel/lib 
+Requires: yumi_description yumi_hw yumi_moveit_config yumi_support
