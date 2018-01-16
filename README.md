@@ -19,6 +19,7 @@ Rq : a contact sensor has been added to baxter's left gripper check the file in
 The approach from https://robosamir.github.io/DDPG-on-a-Real-Robot/ has been adapted in order to control the speed of the robot and not the position
 
 ## How to use:
+Here the reaching task only has been solved. The concerned files are in the reaching folder of the ddpg package. (cf ddpg.py and new_robotGame.py)
 	*roslaunch baxter_sim_examples baxter_ddpg.launch
 	*rosrun ddpg ddpg
 Rq in ddpd use play(0) for replay and play(1) for training
